@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+	<Resource
+		name="jdbc/dbtest"
+		type="javax.sql.DataSource"
+		auth="Container"
+		
+		driverClassName="com.mysql.jdbc.Driver"
+		username="dwaps"
+		password="123456"
+		url="jdbc:mysql://localhost:3306/dbtest"
+		
+		maxTotal="100"
+		maxIdle="30"
+		maxWaitMillis="10000" />
+</Context>
